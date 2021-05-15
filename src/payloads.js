@@ -111,13 +111,13 @@ module.exports = {
                 },
                 {
                     block_id: 'approver',
-                    type: 'hidden',
+                    type: 'input',
                     label: {
                         type: 'plain_text',
                         text: 'Select approver'
                     },
                     element: {
-                        action_id: 'U020WBYTFAB',
+                        action_id: 'approver_id',
                         type: 'users_select'
                     }
                 },
